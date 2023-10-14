@@ -2,4 +2,4 @@
 
 This repository has been established for the purpose of hosting simple Haskell projects.
 
-Inspiration from SFU CMPT 383 Course.
+Inspired by Simon Fraser University CMPT 383 Course.
