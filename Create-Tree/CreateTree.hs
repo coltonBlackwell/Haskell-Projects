@@ -10,6 +10,9 @@ showValues :: Tree a-> [a]
 showValues EmptyTree = []
 showValues (Node a (left) (right) ) = showValues left ++ [a] ++ showValues right
 
+incAll :: Tree Int -> Tree Int
+incAll EmptyTree = EmptyTree
+incAll (Node a (left) (right) ) = Node ( a + 1) (incAll left) (incAll right )
 
 createTree :: Tree Int
 createTree =
